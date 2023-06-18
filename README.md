@@ -5,7 +5,7 @@
 
 
 
-Este porjeto backend se trata de um Workshop feito com Spring boot 3.1, construído durante o curso de Java Completo da DevSuperior com os obejtivos de:
+Este projeto backend se trata de um Workshop feito com Spring boot 3.1, construído durante o curso de Java Completo da DevSuperior com os obejtivos de:
 
 - Implementar modelo de domínio
 - Estruturar camadas lógicas: resource, service, repository

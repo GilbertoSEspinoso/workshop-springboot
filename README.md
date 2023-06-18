@@ -51,34 +51,32 @@ Password: n/a
 ```
 
 # Endpoints
+`GET/categories`
 
+`GET/categories/{id}`
 ````
-GET/categories
-GET/categories/{id}
+Retorna uma lista com todas as categorias cadastradas ou uma categoria pelo id.
+````
+`GET/products`
 
-- Retorna uma lista com todas as categorias cadastradas ou uma categoria pelo id.
+`GET/products/{id}`
 ````
+Retorna uma lista com todos os produtos cadastrados ou um produto pelo id.
 ````
-GET/products
-GET/products/{id}
 
-- Retorna uma lista com todos os produtos cadastrados ou um produto pelo id.
-````
-````
-GET/orders
-GET/orders/{id}
+`GET/orders`
 
-- Retorna uma lista com todos os serviços cadastrados ou um serviço pelo id.
+`GET/orders/{id}`
 ````
+Retorna uma lista com todos os serviços cadastrados ou um serviço pelo id.
 ````
-GET/users/{id}
-
-- Retorna um usuário cadastrado pelo id.
+`GET/users/{id}`
 ````
+Retorna um usuário cadastrado pelo id.
 ````
-POST/users
-
-- Cria um novo usuário.
+`POST/users`
+````
+Criar um novo usuário.
 
 {
     "name": " nome",
@@ -87,10 +85,9 @@ POST/users
     "password": "123456"
 }
 ````
+`PUT/users/{id}`
 ````
-PUT/users/{id}
-
-- Atualiza um usuário existente.
+Atualiza um usuário existente.
 
 {
     "name": " nome",
@@ -98,10 +95,9 @@ PUT/users/{id}
     "phone": "2199999999"
 }
 ````
+`DELETE/users/{id}`
 ````
-DELETE/users/{id}
-
-- Exclui um usuário cadastrado pelo id.
+Excluir um usuário cadastrado pelo id.
 ````
 
   
